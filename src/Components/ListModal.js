@@ -20,7 +20,10 @@ class ListModal extends Component {
             )
           })}
           <li>
-
+            <form>
+              <input type="text"/>
+              {/* <inp */}
+            </form>
             <button onClick={this.toggleAdding}>Add New Item</button>
           </li>
         </ul>
