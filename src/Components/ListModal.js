@@ -7,7 +7,7 @@ class ListModal extends Component {
   }
 
   render() {
-    const { addingNewItem, list, addItem, deleteItem } = this.props;
+    const { list, deleteItem } = this.props;
     return (
       <div>
         <ul>

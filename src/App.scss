@@ -1,3 +1,37 @@
-.App {
+@import url("https://use.typekit.net/ojv4ekx.css");
+* {
+  font-family: 'eurostile';
+}
+
+body {
   text-align: center;
+  background: linear-gradient(180deg, white, rgb(255, 219, 225));
+  height: 100vh;
+}
+
+.tasks {
+  width: 40%;
+  margin: .5em auto;
+  border: 2px solid pink;
+  padding: 1em;
+  border-radius: 10px;
+  &-today {
+    width: 20%;
+    border: 1px solid pink;
+    margin: 1em auto;
+    border-radius: 5px;
+  }
+}
+.dice-value {
+  font-size: 2em;
+}
+
+.randomBtn {
+  font-size: 1em;
+  border-radius: 10px;
+  padding: 0.2em 1em;
+  &:hover {
+    background: pink;
+    cursor: pointer;
+  }
 }
